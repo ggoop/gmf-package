@@ -1,0 +1,29 @@
+{
+  "name": "ggoop/gmf-package",
+  "description": "gmf package for laravel",
+  "license": "MIT",
+  "authors": [
+  {
+    "name": "ggoop",
+    "email": "samuel_abe@163.com"
+  }],
+  "minimum-stability": "dev",
+  "require":
+  {},
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Ghub\\Stage\\": "src/"
+    }
+  },
+  "extra":
+  {
+    "laravel":
+    {
+      "providers": [
+        "Gmf\\Stage\\ServiceProvider"
+      ]
+    }
+  }
+}
