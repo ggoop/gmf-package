@@ -1,11 +1,9 @@
 {
-  "name": "yourname/DummyPackageName",
+  "name": "DummyUserName/DummyPackageName",
   "description": "gmf package for laravel",
   "license": "MIT",
-  "authors": [
-  {
-    "name": "ggoop",
-    "email": "samuel_abe@163.com"
+  "authors": [{
+    "name": "DummyUserName"
   }],
   "minimum-stability": "dev",
   "require":
