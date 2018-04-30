@@ -1,5 +1,5 @@
 {
-  "name": "ggoop/gmf-package",
+  "name": "yourname/DummyPackageName",
   "description": "gmf package for laravel",
   "license": "MIT",
   "authors": [
@@ -14,7 +14,7 @@
   {
     "psr-4":
     {
-      "Ghub\\Stage\\": "src/"
+      "DummyRootNamespaceString": "src/"
     }
   },
   "extra":
@@ -22,7 +22,7 @@
     "laravel":
     {
       "providers": [
-        "Gmf\\Stage\\ServiceProvider"
+        "DummyRootNamespaceString\\ServiceProvider"
       ]
     }
   }

@@ -1,5 +1,4 @@
 <?php
-
 namespace DummyRootNamespace;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;

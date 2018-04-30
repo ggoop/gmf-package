@@ -1,6 +1,6 @@
 const routeList = [{
-    path: '/DummyPackageName',
-    name: 'DummyPackageName',
+    path: '/sample/home',
+    name: 'sample.home',
     component: () =>
       import ('../pages/Home/Home')
   },

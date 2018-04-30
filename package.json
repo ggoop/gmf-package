@@ -3,6 +3,6 @@
   "scripts": {
     },
   "devDependencies": {
-    "vue": "^2.0.1"
+    "vue": "^2.*"
   }
 }
