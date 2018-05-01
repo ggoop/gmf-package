@@ -7,6 +7,9 @@ use Gmf\Sys\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class SampleController extends Controller {
+	public function getSample(Request $request) {
+		return 'DummyPackageName';
+	}
 	public function index(Request $request) {
 		$input = $request->all();
 		$size = $request->input('size', 10);
