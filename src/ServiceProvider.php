@@ -23,6 +23,9 @@ class ServiceProvider extends BaseServiceProvider {
 				__DIR__ . '/../resources/public' => public_path('assets/vendor/DummyPackageName'),
 			], $publishes);
 		}
+  }
+  public function alias() {
+		return 'DummyPackageName';
 	}
 
 	/**
